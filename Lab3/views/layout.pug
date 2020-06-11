@@ -1,0 +1,19 @@
+﻿doctype html
+html
+  head
+    title= name
+    .collapse.navbar-collapse(id='navbarSupportedContent')
+    ul.navbar-nav.mr-auto
+      li.nav-item.active
+        a.nav-link(href='/Inder') Inder
+      li.nav-item
+        a.nav-link(href='/Brother') Brother
+      li.nav-item
+        a.nav-link(href='/Dad') Dad
+      li.nav-item
+        a.nav-link(href='/Mom') Mom
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+    link(rel='stylesheet', href='/stylesheets/main.css')
+  body
+    block content
+    script( src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
